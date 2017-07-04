@@ -1,0 +1,13 @@
+{
+    "tables" : [{
+        "id": 1,
+        "name": "users",
+        "spaceFileName" : "users.json",
+        "autoOpen" : true
+    },{
+        "id": 2,
+        "name": "contacts",
+        "spaceFileName" : "contacts.json",
+        "autoOpen" : true
+    }]
+}

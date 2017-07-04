@@ -1,0 +1,9 @@
+{
+    "users": [{
+        "username": "user1",
+        "password": "$2a$08$xtRCAwYS.Il3zD3Z4Op0fORhw7SIfwfrkL8thkH5f.pI5A4I4ItdW"
+    }, {
+        "username": "admin",
+        "password": "$2a$08$K2ReaqV84TgKeEGHAqG82eJB656WhDPEXa9.8bdKQXuRpALu2cCZy"
+    }]
+}

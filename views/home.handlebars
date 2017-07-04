@@ -1,0 +1,22 @@
+<!-- views/home.handlebars -->
+<div class="jumbotron">
+    <h1>发车信息</h1>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">信息列表</h3>
+        </div>
+        <div class="panel-body">
+        {{#if user}}
+            {{> authContactList user=user}}
+            {{> confirmModal }}
+            {{> formModal }}
+        {{else}}
+            {{> contactList }}
+        {{/if}}
+        </div>
+    </div>
+</div>
+<i id="userId" style="display:none">{{user.username}}</i>
+
+<script src="/javascripts/list.js"></script>
+
